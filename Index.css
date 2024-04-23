@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 1.4rem;
+    text-align: center;
+    background-color: #282828;
+    color: white;
+}
+
+body::before{
+        content: " ";
+        background: url('../bgc.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height:100vh;
+        width:100vw;
+        z-index: -1;
+        opacity: .95;
+ 
+}
+
+
+.cointainer{
+    margin-top: 4vmin;
+    height: 65vh;
+    padding: 1.4rem;
+    /* width: 75cqw; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vmin;
+}
+
+.gamebox{
+    height: 18vmin;
+    width: 18vmin;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(0,0,0,.3);
+    font-size: 8vmin;
+    color: black;
+    background-color:  white;
+    cursor: pointer;
+    }
+
+#restBtn{
+    padding: 1.2rem;
+    font-size: 1.5 rem;
+    background-color: black;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#newBtn{
+    padding: 1.2rem;
+    font-size: 1.5 rem;
+    background-color:black;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#msg{
+    color: white;
+    font-size: 8vmin
+}
+
+.mas-container{
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    text-align: center; 
+    align-items: center; 
+    flex-direction: column;
+    gap: 4rem;
+} 
+
+.hide{
+    display: none;
+}
+
